@@ -37,6 +37,7 @@
     1.2.0   K.Hoang      21/01/2022 Fix `multiple-definitions` linker error
     1.3.0   K.Hoang      25/09/2022 Fix severe bug affecting time between the starts
     1.3.1   K.Hoang      29/09/2022 Using float instead of ulong for interval
+    1.?.?   M.Petres     25/05/2023 Fix for uninitialized _timer, See https://github.com/git2212/RPI_PICO_TimerInterrupt/pull/1#issue-1726126182
 *****************************************************************************************************************************/
 
 #pragma once
