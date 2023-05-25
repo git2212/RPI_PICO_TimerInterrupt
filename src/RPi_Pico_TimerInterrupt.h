@@ -124,7 +124,6 @@ class RPI_PICO_TimerInterrupt
     {
       _timerNo  = timerNo;
       _callback = NULL;
-      memset(&_timer,0,sizeof(repeating_timer));
     };
 
     ////////////////////////////////////////////////////////////////
